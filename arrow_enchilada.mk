@@ -24,6 +24,7 @@ $(call inherit-product, device/oneplus/enchilada/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+DEVICE_MAINTAINER := Raj Jadeja
 PRODUCT_NAME := arrow_enchilada
 PRODUCT_DEVICE := enchilada
 PRODUCT_MANUFACTURER := OnePlus
